@@ -1,4 +1,4 @@
-📦 PraevisioX
+📦 #PraevisioX
 
 PraevisioX é uma plataforma de controle de estoque e vendas, desenvolvida para pequenas lojas, especialmente do nicho de roupas, que precisam de organização, controle e agilidade.
 A plataforma integra o cadastro de produtos, registro de vendas, controle automático de estoque e fluxo de caixa, oferecendo uma visão clara e prática do negócio.
@@ -73,28 +73,6 @@ cash_flow → entradas e saídas de caixa.
 Relações principais: users → sales → sale_items.
 Estoque atualizado automaticamente a cada venda registrada.
 
-🔄 Fluxo do Sistema
-[Login] 
-   ↓
-[Dashboard do Dono]
-   ├── [Gerenciar Produtos]
-   │        ├── Adicionar Produto
-   │        └── Editar / Remover Produto
-   │
-   ├── [Caixa (Registrar Venda)]
-   │        ├── Selecionar Produtos
-   │        ├── Escolher Forma de Pagamento
-   │        └── Concluir Venda → baixa no estoque
-   │
-   ├── [Relatórios]
-   │        ├── Vendas do dia
-   │        ├── Produtos mais vendidos
-   │        └── Estoque baixo
-   │
-   └── [Controle de Caixa]
-            ├── Lançar entrada/saída manual
-            └── Visualizar fluxo de caixa
-
 ⚙️ Tecnologias Utilizadas
 
 PHP (puro)
@@ -106,4 +84,5 @@ HTML5 / CSS3 / JavaScript
 Bootstrap opcional para facilitar responsividade
 
 Pix API (futuro) para pagamentos
+
 
